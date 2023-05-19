@@ -23,5 +23,5 @@ for edge in edge_list:
 apal = APAL()
 apal.graph = G  # the graph we have defined above
 apal_clusters = apal.run_apal(0.2)
-
+    
 print(apal_clusters)
